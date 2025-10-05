@@ -1,0 +1,39 @@
+/* 
+================
+    Variables
+================
+*/
+
+:root {
+    --color-primary: #E5E5E5;
+    --color-secondry: #FBD144;
+    --color-gray: #575757;
+    --color-light-gray: #D7D7D7;
+    --color-dark-gray: #3D3D3D;
+    --color-dark: #19191B;
+}
+
+/* 
+================
+  Base Styles
+================
+*/
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-primary);
+    font-family: "Poppins Medium", sans-serif;
+}
